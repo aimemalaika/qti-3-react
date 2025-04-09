@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<qti-assessment-item xmlns="http://www.imsglobal.org/xsd/imsqtiasi_v3p0" 
+                     xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqtiasi_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_asiv3p0_v1p0.xsd"
+                     xsi:type="qti:assessmentItem" identifier="Example05-feedbackBlock-adaptive" title="Adaptive - choice of input type" adaptive="true">
+                     
+    <qti-response-declaration identifier="RESPONSE1" cardinality="single" base-type="identifier"/>
+    
+    <qti-item-body>
+        <qti-prompt>
+            <p>Which of these input methods do you wish to use?</p>
+        </qti-prompt>
+        <qti-choice-interaction id="choiceInteraction0" max-choices="1" response-identifier="RESPONSE1" shuffle="true">
+            <qti-simple-choice identifier="OPTION1">Multiple choice</qti-simple-choice>
+            <qti-simple-choice identifier="OPTION2">Drop-down menu</qti-simple-choice>
+            <qti-simple-choice identifier="OPTION3">Typed input</qti-simple-choice>
+        </qti-choice-interaction>
+    </qti-item-body>
+</qti-assessment-item>

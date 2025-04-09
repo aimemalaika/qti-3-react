@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest 
+    xmlns="http://www.imsglobal.org/xsd/qti/qtiv3p0/imscp_v1p1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    identifier="MANIFEST-85D76736-6D19-9DC0-7C0B-57C31A9FD391" 
+    xsi:schemaLocation="http://www.imsglobal.org/xsd/qti/qtiv3p0/imscp_v1p1 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqtiv3p0_imscpv1p2_v1p0.xsd">
+    <metadata>
+        <schema>QTI Package</schema>
+        <schemaversion>3.0.0</schemaversion>
+    </metadata>
+    <organizations/>
+    <resources>
+        <resource identifier="set_1_radio_button" type="imsqti_item_xmlv3p0" href="set_1.xml">
+            <file href="set_1.xml"/>
+        </resource>
+        <resource identifier="set_2_radio_button" type="imsqti_item_xmlv3p0" href="set_2.xml">
+            <file href="set_2.xml"/>
+        </resource>
+        <resource identifier="set_3" type="imsqti_item_xmlv3p0" href="set_3.xml">
+            <file href="set_3.xml"/>
+        </resource>
+        <resource identifier="set_4" type="imsqti_item_xmlv3p0" href="set_4.xml">
+            <file href="set_4.xml"/>
+        </resource>
+        <resource identifier="set_5" type="imsqti_item_xmlv3p0" href="set_5.xml">
+            <file href="set_5.xml"/>
+        </resource>
+        <resource identifier="set_6" type="imsqti_item_xmlv3p0" href="set_6.xml">
+            <file href="set_6.xml"/>
+        </resource>
+        <resource identifier="set_7" type="imsqti_item_xmlv3p0" href="set_7.xml">
+            <file href="set_7.xml"/>
+        </resource>
+        <resource identifier="set_8" type="imsqti_item_xmlv3p0" href="set_8.xml">
+            <file href="set_8.xml"/>
+        </resource>
+        <resource identifier="set_9" type="imsqti_item_xmlv3p0" href="set_9.xml">
+            <file href="set_9.xml"/>
+        </resource>
+        <resource identifier="set_10" type="imsqti_item_xmlv3p0" href="set_10.xml">
+            <file href="set_10.xml"/>
+        </resource>
+    </resources>
+</manifest>
