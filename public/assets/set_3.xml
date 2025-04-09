@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<qti-assessment-item xmlns="http://www.imsglobal.org/xsd/imsqtiasi_v3p0" 
+                     xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqtiasi_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_asiv3p0_v1p0.xsd"
+                     xsi:type="qti:assessmentItem" identifier="Example01-feedbackBlock-adaptive" title="Question 1" adaptive="true">
+    <qti-response-declaration identifier="RESPONSE1" cardinality="single" base-type="identifier"/>
+    <qti-item-body>
+        <p>What is the capital of France?</p>
+        <qti-choice-interaction id="choiceInteraction0" min-choices="1" response-identifier="RESPONSE1" shuffle="true">
+            <qti-simple-choice identifier="OPTION1">Berlin</qti-simple-choice>
+            <qti-simple-choice identifier="OPTION2">Madrid</qti-simple-choice>
+            <qti-simple-choice identifier="OPTION3">Paris</qti-simple-choice>
+            <qti-simple-choice identifier="OPTION4">Rome</qti-simple-choice>
+        </qti-choice-interaction>
+    </qti-item-body>
+</qti-assessment-item>

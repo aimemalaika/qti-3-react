@@ -1,0 +1,35 @@
+{
+  "name": "qti-player",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "types": "types/my-element.d.ts",
+  "files": ["dist", "types"],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@citolab/qti-components": "next",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "cheerio": "1.0.0-rc.12",
+    "lit": "^2.8.0",
+    "@lit-labs/context": "^0.4.1",
+    "@lit-labs/react": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  }
+}
